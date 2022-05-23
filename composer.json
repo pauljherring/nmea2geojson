@@ -1,0 +1,20 @@
+{
+    "name": "pherring/nmea2geojson",
+    "description": "Package to translate a NMEA stream into a geojson file",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pherring\\Nmea2geojson\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Paul Herring",
+            "email": "pauljherring@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
